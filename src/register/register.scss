@@ -1,0 +1,88 @@
+.home__head{
+   
+
+    .home__head1{
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+
+        h3{
+           font-size: 1.4em;
+           font-weight: 500;
+           text-align: center;
+        }
+
+        .container{
+
+            .row{
+
+                h6{
+                    padding: 10px;
+                }
+
+                .fulldetails{
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    padding-bottom: 20px;
+                    
+                    
+                    input:valid+span, input:focus+span{
+                        background-color:#fff;
+                        color: blue;
+                        transform: translate(10px,-20px);
+                    }  
+
+                    span{
+                        position: absolute;
+                        left: 15px;
+                        font-size: .7em;
+                        font-weight: 400;
+                        transition: .2s ease-in-out;
+                    }
+
+                    i{
+                        position: absolute;
+                        right: 20px;
+                        font-size: .8em;
+                        font-weight: 600;
+                        color: blue;
+                    }
+                }
+            }
+
+            .btn{
+              width: 300px;
+              margin: auto 40px;
+            }
+        }
+
+        .home__footer{
+            
+            .home__foot{
+               display: flex;
+               padding: 20px;
+            //    gap: 7.5em;
+            align-items: center;
+            justify-content: space-between;
+            }
+
+            .home__foot1{
+                display: flex;
+                padding: 20px;
+                // gap: 6em;
+                color: black;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+
+   
+}
